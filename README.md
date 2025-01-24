@@ -1,4 +1,4 @@
-﻿# Python project template
+# Python project template
 
 A simple template of Python projects, with a rigid file structure, and predisposition for unit testing and release on PyPi.
 
