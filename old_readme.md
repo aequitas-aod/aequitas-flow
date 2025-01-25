@@ -18,7 +18,7 @@ A simple template of Python projects, with a rigid file structure, and predispos
 Overview:
 ```bash
 <root directory>
-├── aequitas-flow/             # main package (should be named after your project)
+├──aequitas_flow/             # main package (should be named after your project)
 │   ├── __init__.py         # python package marker
 │   └── __main__.py         # application entry point
 ├── tests/                  # test package (should contain unit tests)
@@ -44,7 +44,7 @@ Overview:
 
 3. Open a shell into your local `aequitas-flow` directory and run
     ```bash
-    ./rename-template.sh aequitas-flow
+    ./rename-template.shaequitas_flow
     ```
 
     This will coherently rename the template's project name with the one chosen by you (i.e. `aequitas-flow`, in this example)
@@ -103,7 +103,7 @@ poetry run poe test
 
 This will execute the `__main__.py` file in the `aequitas-flow` package:
 ```bash
-python -m aequitas-flow
+python -maequitas_flow
 ```
 
 or alternatively:
