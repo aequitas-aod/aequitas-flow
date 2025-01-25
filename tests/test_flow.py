@@ -1,5 +1,5 @@
 import unittest
-from flow import Site, SiteQuery, Channel, Network
+from aequitas_flow import Site, SiteQuery, Channel, Network
 
 class TestSite(unittest.TestCase):
     def setUp(self):
